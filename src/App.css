@@ -416,7 +416,7 @@ footer{
   }
 
   .del {
-    width: 60px;
+    width: 90px;
     font-size: 25px;
     /* ... other styles ... */
   }
@@ -441,7 +441,7 @@ footer{
   }
 
   .del {
-    width: 40px;
+    width: 90px;
     font-size: 20px;
     top: 20px;
     left: 10px;
@@ -469,7 +469,7 @@ footer{
   }
 
   .del {
-    width: 30px;
+    width: 90px;
     font-size: 18px;
     top: 15px;
     left: 5px;
