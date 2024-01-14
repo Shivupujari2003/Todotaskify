@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Todotaskify/static/css/main.097fec1e.css",
+    "main.js": "/Todotaskify/static/js/main.013eda6a.js",
+    "index.html": "/Todotaskify/index.html",
+    "main.097fec1e.css.map": "/Todotaskify/static/css/main.097fec1e.css.map",
+    "main.013eda6a.js.map": "/Todotaskify/static/js/main.013eda6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.097fec1e.css",
+    "static/js/main.013eda6a.js"
+  ]
+}
