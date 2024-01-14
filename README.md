@@ -1,3 +1,4 @@
+This project is a simple ToDoList application developed using React. The web application allows users to efficiently manage their tasks by providing an intuitive interface for adding, editing, and removing items from their to-do list.This also stores your goals without using backend so you can see your all tasks even after refreshing.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
