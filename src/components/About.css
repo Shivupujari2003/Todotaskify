@@ -1,0 +1,86 @@
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 40px;
+  animation: border  forwards;
+  animation-delay: 3.5s;
+}
+
+.title span {
+  --duration: 2s;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin-block: 4px;
+  color: transparent;
+  animation: reveal 1s calc(var(--delay) + var(--duration)) forwards;
+}
+
+.title span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #8ddde0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:20px ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: slideIn var(--duration) var(--delay) forwards,
+    slideOut 1s calc(var(--delay) + var(--duration)) forwards;
+}
+
+@keyframes reveal {
+  to {
+    color: rgb(29, 6, 93);
+    
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(105%);
+  }
+}
+h6{
+  margin-top: 20px;
+  color: rgb(4, 132, 112);
+  margin-left: 20px;
+}
+marquee{
+  margin-top: 20px;
+  color: rgb(159, 18, 93);
+}
+@media  (max-width: 600px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+/* Responsive styles for medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Responsive styles for larger screens */
+@media  (min-width: 1025px) {
+  .title {
+    font-size: 4rem;
+  }
+}
